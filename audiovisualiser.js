@@ -63,7 +63,7 @@ function setup() {
 
 
   //Settings GUI setup 
-  gui = createGui('Visualiser Settings --------                                                                  *This visualiser uses audio from the system microphone.*');
+  gui = createGui('Visualiser Settings ------- *This visualiser uses audio from the system microphone.*');
   gui.addGlobals('BGColour', 'mainColour',
     'offsetColour', 'scl', 'offsetStroke');
   gui.hide();
